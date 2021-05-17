@@ -1,0 +1,344 @@
+/*
+HEADER
+ */
+@media (min-width: 667px) {
+    .navNosAssurances{
+        display: none !important;
+
+    }
+}
+@media (min-width: 1500px) {
+    .navNosAssurances{
+        display: flex !important;
+
+    }
+}
+@media (min-width: 667px) {
+    .nav__toggle{
+        display: flex !important;
+    }
+}
+@media (min-width: 667px) {
+    .nav__toggle {
+        background-color: white;
+        border: none;
+        color: #571dff;
+        font-size: 41px;
+        display: block;
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+    }
+}
+
+@media (min-width: 1500px) {
+    .dropdown .dropbtn{
+        padding: 14px 6px 30px 6px;
+    }
+}
+
+@media (min-width: 1500px){
+    .nav__toggle{
+        display: none !important;
+    }
+}
+/*
+DIV 1 IMAGE PRINCIPALE
+ */
+@media only screen and (min-width: 1500px) {
+    .imgNosAssurances{
+        height: 70vh !important;
+    }
+}
+.imgNosAssurances{
+    height: 156px;
+
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+@media (min-width: 1024px) and (min-width: 768px) {
+    .imgNosAssurances{
+        height: 70vh;
+    }
+}
+/*
+DIV NOS ASSURANCES
+ */
+
+@media (min-width: 812px) {
+    .brandNosAssurances {
+        padding: 0 0 0 250px ;
+
+    }
+}
+#nosassurancesTitre{
+    text-align: center;
+    margin: 0 0 55px 0;
+    font-weight: 100;
+}
+#nosassurancesDIV{
+    /*background: linear-gradient(silver, white);*/
+    background-image: url("C:/Users/enzoc/OneDrive/Bureau/copieaxa/assets/imgs/blanc.jpg");
+    padding: 36px 12% 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#nosassurancesTitre{
+    margin: 0;
+    margin-bottom: 30px;
+    margin-top: 0;
+    line-height: 1.2em;
+    padding: 0 40px;
+    font-size: 28px;
+    font-weight: 100;
+}
+#lienNosAssurancesLi{
+    transition: 0.5s;
+}
+.textenosAssurances{
+    margin-bottom: 35px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.NosAssurancesul{
+    padding: 0;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+li{
+    margin-bottom: 10px;
+}
+.afinancement{
+    font-weight: bold;
+}
+/*
+BlocAllAssurances
+ */
+@media (min-width: 653px) {
+    .blocAllAssurances{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 652px !important;
+    }
+}
+@media (min-width: 640px) {
+    .blocAllAssurances{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 639px;
+    }
+}
+
+@media (min-width: 667px) {
+    .blocAllAssurances{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 666px !important;
+    }
+}
+@media (min-width: 720px) {
+    .blocAllAssurances{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 719px !important;
+    }
+}
+@media (min-width: 731px) {
+    .blocAllAssurances{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 730px !important;
+    }
+}
+@media (min-width: 736px) {
+    .blocAllAssurances{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 735px !important;
+    }
+}
+@media (min-width: 768px) {
+    .blocAllAssurances{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 767px !important;
+    }
+}
+@media (min-width: 812px) {
+    .blocAllAssurances{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 811px !important;
+    }
+}
+@media (min-width: 823px) {
+    .blocAllAssurances{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 822px !important;
+    }
+}
+@media (min-width: 1024px) {
+    .blocAllAssurances{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 1023px !important;
+    }
+}
+
+@media (min-width: 1366px) {
+    .blocAllAssurances{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 1365px !important;
+    }
+}
+@media (min-width: 653px) {
+    .BlocNosAssurances{
+        flex-direction: row;
+        width: 652px;
+    }
+
+}
+@media (min-width: 1220px) {
+    .BlocNosAssurances{
+        flex-direction: row;
+        width: 1219px;
+    }
+
+}
+@media (min-width: 1278px) {
+    .BlocNosAssurances{
+        flex-direction: row;
+        width: 1277px !important;
+    }
+
+}
+@media (min-width: 1366px) {
+    .BlocNosAssurances{
+        flex-direction: row;
+        width: 1367px !important;
+    }
+
+}
+@media (min-width: 1500px) {
+    .BlocNosAssurances{
+        flex-direction: row;
+        width: 1518px !important;
+    }
+
+}
+
+@media (min-width: 1530px) {
+    .BlocNosAssurances{
+        flex-direction: row;
+        width: 1531px !important;
+    }
+
+}
+@media (min-width: 1500px) {
+    .BlocNosAssurances{
+        flex-direction: row;
+        width: 1518px !important;
+    }
+
+}
+@media (min-width: 1920px) {
+    .blocAllAssurances{
+        flex-direction: row;
+        width: 1902px !important;
+    }
+
+}
+@media (min-width: 2560px) {
+    .BlocNosAssurances{
+        flex-direction: row;
+        width: 2559px !important;
+    }
+
+}
+/*
+DIV AFFACTURAGE & ASSURANCE CREDIT
+ */
+#lienNosAssurancesLi:hover{
+    color: #571dff;
+}
+ #lienNosAssurancesLi:visited{
+     color: #800080;
+ }
+#Affacturage\&AssuranceCrédit{
+    background: #e2e2e2;
+    padding: 40px 20px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+@media (min-width: 768px) {
+    .logoBerthalon{
+        padding: 0 0 0 317px;
+    }
+}
+@media (min-width: 823px) {
+   img{
+       padding: 0 0 0 0px;
+   }
+}
+@media (min-width: 823px) {
+    .custom-logo2{
+        padding: 0 0 0 0px;
+    }
+}
+@media (min-width: 1024px) {
+    img{
+        padding: 0 0 0 0px;
+        margin-top: 20px;
+    }
+}
+@media (min-width: 812px) {
+    .logoBerthalon{
+        padding: 0 0 0 0px;
+    }
+}
+@media (min-width: 1500px) {
+    .logoBerthalon{
+        padding: 0 0 0 0px;
+    }
+}
+.affacturageAssuranceCredit{
+    font-size: 28px;
+    margin-bottom: 65px;
+}
+.center{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+.texteBleu{
+    color: #571dff;
+    font-weight: 100;
+    font-size: 27px;
+}
+@media only screen and (min-width: 1280px) {
+    .Contenuaffacturage\&AssuranceCrédit{
+        padding: 40px 12% 70px;
+    }
+}

@@ -1,0 +1,33 @@
+<!-- Ce header était le headere avant le récent (celui inspiré de Axa Berthalon) -->
+
+<header  class="siteHeader">
+            <div class="wrapper siteHeaderWrapper">
+                <a href="https://www.assurances-berthalon.com/" class="brand brandNosAssurances" rel="home" aria-current="page"><img style="padding-top: 10px" width="68" height="62" src="C:\Users\enzoc\OneDrive\Bureau\copieaxa\assets\imgs\LOGO-HEADER-copie.jpg" class="custom-logo logoBerthalon" alt="Axa Berthalon" /></a>
+                <nav id="NavHeader" class="navheader">
+                    <button class="nav__toggle" aria-expanded="false" type="button">
+                        ≡
+                    </button>
+                    <ul class="navWrapper active2 navNosAssurances">
+                        <li class="liHeader" id="liHeader1"><a href="https://www.assurances-berthalon.com/" class="aHeader">Accueil</a></li>
+                        <li class="liHeader" id="liHeader2"><a href="https://www.assurances-berthalon.com/qui-sommes-nous/" class="aHeader aNavBar"  style="color: #571dff; font-weight: bold">Qui sommes nous ?</a></li>
+                        <li class="liHeader" id="liHeader3"><div class="dropdown">
+                            <button class="dropbtn">Nos assurances
+                                <i class="fa2 fa-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="https://www.assurances-berthalon.com/nos-assurances/?assurance=assurance-construction">Construction</a>
+                                <a href="https://www.assurances-berthalon.com/nos-assurances/?assurance=assurance-sante">Santé</a>
+                                <a href="https://www.assurances-berthalon.com/nos-assurances/?assurance=assurance-coproprietes">Copropriétés</a>
+                                <a href="https://www.assurances-berthalon.com/nos-assurances/?assurance=assurance-credit">Affacturage & Assurance Crédit</a>
+                            </div>
+                        </li>
+                        <li class="liHeader" id="liHeader4"><a href="https://www.assurances-berthalon.com/actualites/" class="aHeader">Actualités</a></li>
+                        <li class="liHeader" id="liHeader5"><a href="https://www.assurances-berthalon.com/contact/" class="aHeader">Contact</a></li>
+                        <li class="liHeader" id="liHeader6"><a href="https://connect.axa.fr/#/" id="espaceclientbtnheader">Espace Client</a></li>
+
+                    </ul>
+
+                </nav>
+            </div>
+
+        </header>

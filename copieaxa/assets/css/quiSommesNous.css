@@ -1,0 +1,539 @@
+/*
+    header
+ */
+
+/*
+PARTIE 1
+ */
+.imgNosAssurances{
+    transition: 0.5s;
+}
+/*
+partie 2 qui sommes-nous ?
+ */
+.quisommesnousDIV{
+    position: relative;
+    padding: 40px 0 0 0;
+}
+.texteQuiSommesNous{
+    margin-bottom: 40px;
+}
+p{
+    padding: 0 20px;
+}
+.boldquisommesnous{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 35px;
+    text-align: center;
+    color: #571dff;
+}
+.beforebleu::before{
+    content: '';
+    position: absolute;
+    top: 189px;
+    left: 40%;
+    align-self: center;
+    width: 20%;
+    height: 5px;
+    background-color: #571dff;
+}
+.b2oldquisommeesnous{
+    color: white;
+  }
+.Textequisommesnous{
+    font-weight: bold;
+}
+.textepartie1quisommesnous{
+    text-align: center;
+    margin-bottom: 39px;
+}
+.imgBureaux{
+    padding: 0;
+    width: 100%;
+    clip-path: polygon(50% 10%, 100% 0, 100% 100%, 0 100%, 0 0);
+    display: block;
+    margin-bottom: 0;
+}
+#nosassurancesDIV{
+    transition: 0.5s;
+}
+/*
+partie 3 notre expertise
+ */
+.fond_rouge_notreExpertise{
+    background-color: #ce1731;
+    color: white;
+    padding: 40px 20px 40px;
+    transition: 0.5s;
+}
+.h2notre_expertise{
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.BlocNotreExpertise{
+    background: none !important;
+}
+.titreprincipaux{
+    text-transform: none;
+}
+.dot{
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 25px 6px;
+    background-color: #ffffff40 !important;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.imgCarrousel {
+    height: auto !important;
+}
+.active, .dot:hover {
+    background-color: #ffffff !important;
+}
+.prev, .next{
+    color: white !important;
+}
+.text{
+    color: white !important;
+}
+.swiper-container{
+    background: #ce1731 !important;
+}
+.aSwiper{
+    background: #ce1731 !important;
+}
+
+.imgSwiper{
+    height: auto !important;
+}
+.pexpertiseswiper{
+    font-size: 14px !important;
+}
+.swiper-pagination{
+    margin: 0 0 35px !important;
+}
+.center{
+    margin-bottom: 0;
+}
+/*
+partie 4 l'équipe
+ */
+.contaireequipe{
+    background: url("C:/Users/enzoc/OneDrive/Bureau/copieaxa/assets/imgs/blanc2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    padding: 40px 20px 60px;
+}
+.h2notre_expertise{
+    text-align: center;
+    font-weight: 100;
+}
+.italic{
+    font-style: italic;
+}
+.text-bleu{
+    color: #571dff;
+    text-align: center;
+    margin-block-start: 7px !important;
+    margin-inline-end: 0 !important;
+    margin-block-end: 0 !important;
+    margin-inline-start: 0 !important;
+
+}
+.nomEquipe{
+    text-align: center;
+
+}
+h4{
+    margin-block-start: 0 !important;
+    margin-inline-end: 0 !important;
+    margin-block-end: 0 !important;
+    margin-inline-start: 0 !important;
+}
+.imgEquipe{
+    margin-bottom: 25px;
+    padding-left: 36px;
+    padding-top: 25px;
+}
+
+/*
+partie media queries (responsives)
+ */
+@media (min-width: 280px) {
+    .imgEquipe{
+        padding-left: 13px;
+    }
+    .beforebleu::before{
+        top: 205px;
+    }
+    .imgSwiper{
+        width: 48px !important;
+    }
+    #nosassurancesDIV{
+        padding: 40px 0 0 0;
+    }
+}
+@media (min-width: 320px) {
+    .beforebleu::before{
+        top: 188px;
+    }
+    .imgEquipe{
+        padding-left: 30px;
+    }
+}
+
+@media (min-width: 360px) {
+    .imgEquipe{
+        padding-left: 50px;
+    }
+}
+@media (min-width: 375px) {
+    .beforebleu::before{
+        top: 155px;
+    }
+    .imgEquipe{
+        padding-left: 60px;
+    }
+}
+@media (min-width: 411px) {
+    .imgEquipe {
+        padding-left: 81px;
+    }
+}
+@media (min-width: 540px) {
+    .imgEquipe {
+        padding-left: 145px;
+    }
+}
+
+@media (min-width: 568px) {
+    .imgEquipe{
+        padding-left: 155px;
+    }
+    .beforebleu::before{
+        top: 140px;
+    }
+}
+@media (min-width: 640px) {
+    .imgEquipe {
+        padding-left: 193px;
+    }
+}
+@media (min-width: 653px) {
+    .imgEquipe {
+        padding-left: 198px;
+    }
+}
+@media (min-width: 667px) {
+    .imgEquipe {
+        padding-left: 205px;
+    }
+}
+@media (min-width: 720px) {
+        .imgEquipe {
+            padding-left: 237px;
+        }
+}
+@media (min-width: 731px) {
+        .imgEquipe {
+            padding-left: 245px;
+        }
+    }
+@media (min-width: 768px) {
+        .imgEquipe {
+            padding-left: 260px;
+        }
+}
+@media (min-width: 812px) {
+    .imgEquipe {
+        padding-left: 282px;
+    }
+}
+
+@media (min-width: 823px) {
+        .imgEquipe {
+            padding-left: 293px;
+        }
+}
+
+@media (min-width: 768px) and (min-height: 600px) {
+    .equipebloc{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imgEquipe{
+        padding-left: 25px;
+    }
+    #imgEquipe4{
+        padding-left: 137px;
+    }
+    #imgEquipe5{
+        padding-left: 22px;
+    }
+    #texte4{
+        padding-left: 158px;
+    }
+    #nom4{
+        padding-left: 141px;
+    }
+    #texte5{
+        padding-left: 46px;
+    }
+    #nom5{
+        padding-left: 43px;
+    }
+    .pexpertiseswiper{
+        font-size: 18px !important;
+    }
+
+}
+@media (min-width: 1024px) and (min-width: 768px) {
+    .imgEquipe {
+        padding-left: 89px;
+    }
+    .imgNosAssurances{
+        height: 70vh;
+    }
+    #nosassurancesDIV{
+        font-size: 20px;
+    }
+    #nom1{
+        padding-left: 94px;
+    }
+    #texte1{
+        padding-left: 115px;
+    }
+    #nom2{
+        padding-left: 60px;
+    }
+    #texte2{
+        padding-left: 104px;
+    }
+    #nom3{
+        padding-left: 55px;
+    }
+    #texte3{
+        padding-left: 86px;
+    }
+    #imgEquipe4{
+        padding-left: 236px;
+    }
+    #nom4{
+        padding-left: 194px;
+    }
+    #texte4{
+        padding-left: 219px;
+    }
+    #imgEquipe5{
+        padding-left: 84px;
+    }
+    #nom5{
+        padding-left: 70px;
+    }
+    #texte5{
+        padding-left: 90px;
+    }
+    p{
+        font-size: 18px;
+        padding: 0;
+    }
+}
+@media (min-width: 1280px) {
+    .imgBureaux{
+        width: 50%;
+        clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 5% 50%);
+        align-self: center;
+        margin-bottom: 15px;
+
+    }
+    .paragraphe_1_quisommesnous{
+        text-align: left;
+        width: 60%;
+        padding-top: 40px;
+        padding-left: 12%;
+        padding-right: 6%;
+        align-self: flex-start;
+    }
+    .texteQuiSommesNous{
+        margin-bottom: 110px;
+    }
+    #nosassurancesDIV{
+        padding: 140px 0 0;
+    }
+}
+@media (min-width: 1366px) {
+    .imgEquipe{
+        padding-left: 175px;
+    }
+    #nom1{
+         padding-left: 178px;
+     }
+    #texte1{
+        padding-left: 199px;
+    }
+    #nom2{
+        padding-left: 170px;
+    }
+    #texte2{
+        padding-left: 200px;
+    }
+    #nom3{
+        padding-left: 182px;
+    }
+    #texte3{
+        padding-left: 186px;
+    }
+    #imgEquipe4{
+        padding-left: 366px;
+    }
+    #nom4{
+        padding-left: 362px;
+    }
+    #texte4{
+        padding-left: 379px;
+    }
+    #imgEquipe5{
+        padding-left: 179px;
+    }
+    #nom5{
+        padding-left: 184px;
+    }
+    #texte5{
+        padding-left: 195px;
+    }
+    .paragrapheQuiSommesNous{
+        display: flex;
+    }
+    .boldquisommesnous{
+        text-align: left;
+    }
+    .textepartie1quisommesnous{
+        text-align: left;
+    }
+    .beforebleu::before{
+        top: 337px;
+        left: 10%;
+        width: 7%;
+
+    }
+    .b2oldquisommeesnous{
+        text-align: center;
+    }
+    .swiper-pagination{
+        display: none;
+    }
+    .BlocExpertiseNone{
+        display: none !important;
+    }
+    .logoExpertise{
+        width: 60px;
+        margin-bottom: 35px;
+    }
+    .fond_rouge_notreExpertise{
+        padding: 100px 12% 100px;
+    }
+    .b2oldquisommeesnous{
+        margin-bottom: 60px;
+    }
+    .bold{
+        margin: auto;
+    }
+
+}
+@media (min-width: 1500px) {
+    .imgEquipe{
+        padding-left: 214px;
+    }
+    #imgEquipe4{
+        padding-left: 418px;
+    }
+    #imgEquipe5{
+        padding-left: 204px;
+    }
+    #nom1, #texte1{
+        padding-left: 223px;
+    }
+    #nom2, #texte2{
+        padding-left: 213px;
+    }
+    #nom3, #texte3{
+        padding-left: 210px;
+    }
+    #nom4, #texte4{
+        padding-left: 413px;
+    }
+    #nom5, #texte5{
+        padding-left: 218px;
+    }
+
+}
+@media (min-width: 1920px) {
+    .imgEquipe{
+        padding-left: 312px;
+    }
+    #imgEquipe4{
+        padding-left: 559px;
+    }
+    #imgEquipe5{
+        padding-left: 332px;
+    }
+    #nom1, #texte1{
+        padding-left: 319px;
+    }
+    #nom2, #texte2{
+        padding-left: 311px;
+    }
+    #nom3, #texte3{
+        padding-left: 308px;
+    }
+    #nom4, #texte4{
+        padding-left: 551px;
+    }
+    #nom5, #texte5{
+        padding-left: 326px;
+    }
+
+}
+#texteMargin{
+    margin-bottom: 50px;
+}
+@media (max-width: 1366px) {
+    #expertiseBlocp1{
+        display: none;
+    }
+}
+.expertiseblocenfant{
+    /*width: 222px;*/
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#expertiseBlocp2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+}
+#expertiseBlocp1{
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+/*
+footer
+ */

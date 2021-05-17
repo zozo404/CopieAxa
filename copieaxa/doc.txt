@@ -1,0 +1,8 @@
+Ce projet est un projet déjà réalisé, je l'ai fais par la demande de mon maître de stage.
+
+Le fichier "test.html" n'est utilisé que pour tester du code afin de les appliquer par la suite.
+
+
+Si ce dossier "copieaxa" a un autre nom, remettre celui d'avant sauf, si l'on change les url.
+Toutes pages sont entièrements responsives, tous les liens sont fonctionnels.
+
