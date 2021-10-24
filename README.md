@@ -2,7 +2,7 @@
 🎉 Lors de mon stage de seconde année, j'ai développé ces pages. Le site original est https://www.assurances-berthalon.com/
 # CopieAxa
 
-Site développé
+Site développé afin d'exercer mes compétences
 
 ## C'est quoi
 
